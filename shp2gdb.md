@@ -1,5 +1,16 @@
 # Converting a shapefile into a geodatabase feature class
 
+## Table of Contents
+
+1. [Introduction](Introduction)
+2. [Creating a geodatabase](Creating-a-geodatabase)
+3. Converting a shapefile to a feature class
+	1. [via ArcMap *Table Of Contents*]
+	2. via ArcCatalog
+	3. via **Feature Class to Feature Class** tool
+
+## Introduction
+
 This little tutorial will walk you through how to convert a shapefile into a geodatabase feature class using ArcGIS. This will be broken into two larger parts:
 
 1. Creating a geodatabase
