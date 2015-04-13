@@ -35,7 +35,7 @@ Congratulations! You've successfully create a new file geodatabase. You'll now b
 
 ## Converting a shapefile to a feature class
 
-Let's walk through how to convert a shapefile into a feature class for storage in the  geodatabase you just made. There are a few ways to do this though it seems to work most reliably for me from the ArcMap *Table Of Contents*.
+Let's walk through how to convert a shapefile into a feature class for storage in the  geodatabase you just made. There are a few ways to do this though it seems to work most reliably for me from the ArcMap *Table Of Contents*, but I'll also outline how to get the same results from ArcCatalog and using the **Feature Class to Feature Class** tool, respectively.
 
 ### via ArcMap *Table of Contents*
 *This assumes you have the layer you want to convert loaded into an ArcMap project*
