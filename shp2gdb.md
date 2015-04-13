@@ -2,12 +2,12 @@
 
 ## Table of Contents
 
-1. [Introduction](#introduction)
-2. [Creating a geodatabase](#creating-a-geodatabase)
-3. Converting a shapefile to a feature class
-	1. [via ArcMap *Table Of Contents*]
-	2. via ArcCatalog
-	3. via **Feature Class to Feature Class** tool
+- [Introduction](#introduction)
+- [Creating a geodatabase](#creating-a-geodatabase)
+- [Converting a shapefile to a feature class](#converting-a-shapefile-to-a-feature-class)
+	- [via ArcMap *Table Of Contents*](#via-arcmap-table-of-contents)
+	- [via ArcCatalog](#via-arccatalog)
+	- [via **Feature Class to Feature Class** tool](#via-feature-class-to-feature-class-tool)
 
 ## Introduction
 
