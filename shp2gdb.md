@@ -24,7 +24,7 @@ Congratulations! You've successfully create a new file geodatabase. You'll now b
 
 ## Converting a shapefile to a feature class
 
-Let's walk through how to convert a shapefile into a feature class for storage in the  geodatabase you just made. There are a few ways to do this. You can convert a shapefile to a feature class using in the *Table of Contents* in your ArcMap project, via ArcCatalog, or using the **Feature Class to Feature Class** tool. Let's walk through all three, respectively. I'll work with a shapefile called `points.shp` for the sake of example.
+Let's walk through how to convert a shapefile into a feature class for storage in the  geodatabase you just made. There are a few ways to do this though it seems to work most reliably for me from the ArcMap *Table Of Contents*.
 
 ### via ArcMap *Table of Contents*
 *This assumes you have the layer you want to convert loaded into an ArcMap project*
@@ -42,6 +42,8 @@ Your shapefile has successfully been converted to a geodatabase feature class. W
 
 ### via ArcCatalog
 
+**This method may not be entirely reliable**
+
 (This assumes you're accessing ArcCatalog from within ArcMap. However, the process is pretty much the same in the standalone version of ArcCatalog)
 
 1. In the *Catalog* pane, find the shapefile you'd like to convert into a geodatabase feature class. Right-click.<br>![](http://i1368.photobucket.com/albums/ag172/gscplanning/shp2gdb/catalog6_zpssjubm7el.jpg)
@@ -49,8 +51,8 @@ Your shapefile has successfully been converted to a geodatabase feature class. W
 3. This opens the **Feature Class to Feature Class** tool. **Input Features** is already filled in with the name of the layer you want to convert.<br>![](http://i1368.photobucket.com/albums/ag172/gscplanning/shp2gdb/fc1_zpsqu63el7v.jpg)
 4. Set **Output Location** by clicking the browse button at the field's end. When you get to the folder that contains your geodatabase, left-click the geodatabase **once** and click the "Add" button.<br>![](http://i1368.photobucket.com/albums/ag172/gscplanning/shp2gdb/fc2_zpszq5bxhsf.jpg)
 5. Set **Output Feature Class** to the name you want for your converted feature class<br>![](http://i1368.photobucket.com/albums/ag172/gscplanning/shp2gdb/fc3_zpsqgzkbrts.jpg)
-6. blerg
 
 ### via **Feature Class to Feature Class** tool
 
+**Forthcoming**
 
