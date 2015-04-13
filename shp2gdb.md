@@ -42,8 +42,6 @@ Your shapefile has successfully been converted to a geodatabase feature class. W
 
 ### via ArcCatalog
 
-**This method may not be entirely reliable**
-
 (This assumes you're accessing ArcCatalog from within ArcMap. However, the process is pretty much the same in the standalone version of ArcCatalog)
 
 1. In the *Catalog* pane, find the shapefile you'd like to convert into a geodatabase feature class. Right-click.<br>![](http://i1368.photobucket.com/albums/ag172/gscplanning/shp2gdb/catalog6_zpssjubm7el.jpg)
@@ -52,7 +50,16 @@ Your shapefile has successfully been converted to a geodatabase feature class. W
 4. Set **Output Location** by clicking the browse button at the field's end. When you get to the folder that contains your geodatabase, left-click the geodatabase **once** and click the "Add" button.<br>![](http://i1368.photobucket.com/albums/ag172/gscplanning/shp2gdb/fc2_zpszq5bxhsf.jpg)
 5. Set **Output Feature Class** to the name you want for your converted feature class<br>![](http://i1368.photobucket.com/albums/ag172/gscplanning/shp2gdb/fc3_zpsqgzkbrts.jpg)
 
+The new feature class layer will be added to your map. Way to go!
+
 ### via **Feature Class to Feature Class** tool
 
-**Forthcoming**
+You can also access the **Feature Class to Feature Class** tool directly from within ArcMap.
 
+1. If you don't have the ArcToolbox pane open, open it from your toolbar<br>![](http://i1368.photobucket.com/albums/ag172/gscplanning/shp2gdb/fc4_zps2fb6w7xs.jpg)
+2. In the ArcToolbox pane, navigate to **Conversion Tools>To Geodatabase>Feature Class to Feature Class**. Double-click.<br>![](http://i1368.photobucket.com/albums/ag172/gscplanning/shp2gdb/fc5_zpss0qnbcmd.jpg)
+3. This opens the **Feature Class to Feature Class** tool. For the **Input Features** field you need to identify the shapefile you want to convert. If your shapefile is in the *Table Of Contents* of your ArcMap project, you can select it by expanding the drop-down menu and left-clicking that layer. Otherwise, click the browse button at the field's end. When you get to the folder that contains your shapefile, left-click the shapefile **once** and click the "Add" button.<br>![](http://i1368.photobucket.com/albums/ag172/gscplanning/shp2gdb/fc8_zpslspu7lat.jpg)
+4. Set **Output Location** by clicking the browse button at the field's end. When you get to the folder that contains your geodatabase, left-click the geodatabase **once** and click the "Add" button.<br>![](http://i1368.photobucket.com/albums/ag172/gscplanning/shp2gdb/fc2_zpszq5bxhsf.jpg)
+5. Set **Output Feature Class** to the name you want for your converted feature class<br>![](http://i1368.photobucket.com/albums/ag172/gscplanning/shp2gdb/fc3_zpsqgzkbrts.jpg)
+
+The new feature class layer will be added to your map automatically. Congratulations on a successful conversion!
