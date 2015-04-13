@@ -17,8 +17,10 @@ The data that are stored in a geodatabase are called *feature classes*. These ar
 ![](http://i1368.photobucket.com/albums/ag172/gscplanning/shp2gdb/catalog1_zpsvqaybzkr.jpg)
 2. In the ArcCatalog pane, navigate to a folder where you want to store your geodatabase. In this example, I'll be using `C:\temp`, but you can use whichever folder you'd like.<br>![](http://i1368.photobucket.com/albums/ag172/gscplanning/shp2gdb/catalog2_zpssjdt66gm.jpg)
 3. Right-click on the folder where you want to store your geodatabase, navigate to **New>File Geodatabase**. Left-click **File Geodatabase**<br>![](http://i1368.photobucket.com/albums/ag172/gscplanning/shp2gdb/catalog3_zpsfuqq3n14.jpg)
-4. blerg
+4. You've created a new file geodatabase! ArcCatalog names it **New File Geodatabase.gdb** by default, but also gives you the option to rename it. <br>![](http://i1368.photobucket.com/albums/ag172/gscplanning/shp2gdb/catalog4_zpsoey15fy7.jpg)
+5. Give your geodatabase a name appropriate for your project. I'll be naming mine **project.gdb**. (You may need to right-click and navigate to *Rename* to change the geodatabase's name)<br>![](http://i1368.photobucket.com/albums/ag172/gscplanning/shp2gdb/catalog5_zpswfxj2jrt.jpg)
 
+Congratulations! You've successfully create a new file geodatabase.
 
 
 
