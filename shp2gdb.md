@@ -20,7 +20,37 @@ The data that are stored in a geodatabase are called *feature classes*. These ar
 4. You've created a new file geodatabase! ArcCatalog names it **New File Geodatabase.gdb** by default, but also gives you the option to rename it. <br>![](http://i1368.photobucket.com/albums/ag172/gscplanning/shp2gdb/catalog4_zpsoey15fy7.jpg)
 5. Give your geodatabase a name appropriate for your project. I'll be naming mine **project.gdb**. (You may need to right-click and navigate to *Rename* to change the geodatabase's name)<br>![](http://i1368.photobucket.com/albums/ag172/gscplanning/shp2gdb/catalog5_zpswfxj2jrt.jpg)
 
-Congratulations! You've successfully create a new file geodatabase.
+Congratulations! You've successfully create a new file geodatabase. You'll now be able to add feature classes, including those converted from existing shapefiles, to your geodatabase.
 
+## Converting a shapefile to a feature class
+
+Let's walk through how to convert a shapefile into a feature class for storage in the  geodatabase you just made. There are a few ways to do this. You can convert a shapefile to a feature class using in the *Table of Contents* in your ArcMap project, via ArcCatalog, or using the **Feature Class to Feature Class** tool. Let's walk through all three, respectively. I'll work with a shapefile called `points.shp` for the sake of example.
+
+### via ArcMap *Table of Contents*
+*This assumes you have the layer you want to convert loaded into an ArcMap project*
+
+1. Find your layer to convert in the *Table of Contents*. Right-click.<br>![](http://i1368.photobucket.com/albums/ag172/gscplanning/shp2gdb/arcmap1_zpseajn9oel.jpg)
+2. Navigate to **Data>Export Data**. Left-click.<br>![](http://i1368.photobucket.com/albums/ag172/gscplanning/shp2gdb/arcmap2_zpsb6x6gx3y.jpg)
+3. The *Export Data* dialog box should open up. For the sake of the example we'll leave the defaults as they are, but we need to tell Arc to export the shapefile as a feature class and into which geodatabase to place the result of the export. To start this process, left-click on the little folder button under *Output feature class*.<br>![](http://i1368.photobucket.com/albums/ag172/gscplanning/shp2gdb/arcmap3_zpsa2zfjved.jpg)
+4. This will bring up the *Saving Data* dialog box. At the bottom of the dialog box is an option field, **Save as type**. The default will likely be shapefile. You can change that by clicking the option menu (the one currently showing "Shapefile") and selecting **File and Personal Geodatabase feature class**.<br>![](http://i1368.photobucket.com/albums/ag172/gscplanning/shp2gdb/arcmap4_zpsrtzedwf1.jpg)
+5. If the **Look in** field matches the folder You should see a little cannister icon and the name of your geodatabase. If not, you'll need to navigate to the folder where your geodatabase is. Once **Look in** is set to the folder your geodatabase is in, double-click your geodatabase.<br>![](http://i1368.photobucket.com/albums/ag172/gscplanning/shp2gdb/arcmap5_zpsq5grg16b.jpg)
+6. Since you just created this geodatabase, there shouldn't be any feature classes listed in it. Let's change that. Look down at the **Name** field. It defaults to `Export_Output`. I'll be naming the feature class `points`, but name your file something appropriate for your project. Click "Save".<br>![](http://i1368.photobucket.com/albums/ag172/gscplanning/shp2gdb/arcmap6_zpsgmzu0xiq.jpg)
+7. The The **Save as type** dialog box will close. You should see the **Export Data** dialog box. Click "OK".<br>![](http://i1368.photobucket.com/albums/ag172/gscplanning/shp2gdb/arcmap7_zpslzhjcpch.jpg)
+8. A dialog box will appear asking if you want to add your newly converted feature class to you map. Click "Yes" to add your feature class to the map.<br>![](http://i1368.photobucket.com/albums/ag172/gscplanning/shp2gdb/arcmap8_zpsms74dbn8.jpg)
+
+Your shapefile has successfully been converted to a geodatabase feature class. Way to go!
+
+### via ArcCatalog
+
+(This assumes you're accessing ArcCatalog from within ArcMap. However, the process is pretty much the same in the standalone version of ArcCatalog)
+
+1. In the *Catalog* pane, find the shapefile you'd like to convert into a geodatabase feature class. Right-click.<br>![](http://i1368.photobucket.com/albums/ag172/gscplanning/shp2gdb/catalog6_zpssjubm7el.jpg)
+2. Navigate to **Export>To Geodatabase (single)...**. Left-click.<br>![](http://i1368.photobucket.com/albums/ag172/gscplanning/shp2gdb/catalog7_zpsxhur8gue.jpg)
+3. This opens the **Feature Class to Feature Class** tool. **Input Features** is already filled in with the name of the layer you want to convert.<br>![](http://i1368.photobucket.com/albums/ag172/gscplanning/shp2gdb/fc1_zpsqu63el7v.jpg)
+4. Set **Output Location** by clicking the browse button at the field's end. When you get to the folder that contains your geodatabase, left-click the geodatabase **once** and click the "Add" button.<br>![](http://i1368.photobucket.com/albums/ag172/gscplanning/shp2gdb/fc2_zpszq5bxhsf.jpg)
+5. Set **Output Feature Class** to the name you want for your converted feature class<br>![](http://i1368.photobucket.com/albums/ag172/gscplanning/shp2gdb/fc3_zpsqgzkbrts.jpg)
+6. blerg
+
+### via **Feature Class to Feature Class** tool
 
 
