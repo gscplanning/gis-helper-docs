@@ -22,7 +22,7 @@ By the end, you should be able to work with your layer as a feature class in a g
 
 When using a geodatabase it's important to keep in mind that the geodatabase itself is just a container for data. While it has special functionality for spatial data, it serves the same purpose as any other file folder on your computer. In fact, if you look at a geodatabase outside of ArcCatalog or ArcMap it will just look like a folder on your computer.
 
-The data that are stored in a geodatabase are called *feature classes*. These are equivalent to shapefiles. What you'll really be doing through this process is converting a shapefile to a feature class that resides in a geodatabase. But before you can do that conversion, you need a place, a geodatabase, for your feature class to be stored. In short, you need to create a geodatabase:
+The data that are stored in a geodatabase are called *feature classes*. These are similar to shapefiles. What you'll really be doing through this process is converting a shapefile to a feature class that resides in a geodatabase. But before you can do that conversion, you need a place, a geodatabase, for your feature class to be stored. In short, you need to create a geodatabase:
 
 1. In ArcMap, open up the ArcCatalog pane. You can access this from the toolbar:<br>
 ![](http://i1368.photobucket.com/albums/ag172/gscplanning/shp2gdb/catalog1_zpsvqaybzkr.jpg)
